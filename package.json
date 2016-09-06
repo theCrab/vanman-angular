@@ -1,0 +1,26 @@
+{
+  "name": "vanman",
+  "version": "0.1.0",
+  "description": "The VanMan web frontend in Angular JS",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theCrab/vanman-angular.git"
+  },
+  "keywords": [
+    "vanman",
+    "angular"
+  ],
+  "author": "The Crab",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theCrab/vanman-angular/issues"
+  },
+  "homepage": "https://github.com/theCrab/vanman-angular#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
