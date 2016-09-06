@@ -21,8 +21,10 @@
   },
   "homepage": "https://github.com/theCrab/vanman-angular#readme",
   "devDependencies": {
+    "browserify": "^13.1.0",
     "gulp": "^3.9.1",
     "gulp-connect": "^5.0.0",
-    "gulp-ruby-sass": "^2.1.0"
+    "gulp-ruby-sass": "^2.1.0",
+    "vinyl-source-stream": "^1.1.0"
   }
 }
