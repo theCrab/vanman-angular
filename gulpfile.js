@@ -26,8 +26,16 @@ gulp.task('browserify', function() {
   	.pipe(gulp.dest('./public/javascripts/'))
 })
 
+gulp.task('sass', function() {
+	return sass('sass/style.sass')
+		.pipe(gulp.dest('public/stylesheets/'))
+})
+
 gulp.task('watch', function() {
 	gulp.watch('app/**/*.js', ['browserify'])
+
+	// watches for changes in style.sass and runs the sass task
+	gulp.watch('sass/style.sass', ['sass'])
 })
 
 gulp.task('default', ['connect', 'watch'])
