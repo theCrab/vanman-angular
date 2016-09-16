@@ -62,7 +62,7 @@ factory = function (a,b,c) {
 
 // examples
 app.service('DashboardService', function ($http, $q) {
-  var baseApi   = 'https://thecrab.com/'
+  var baseApi   = 'https://api.thecrab.com/v1/'
   var dashboard = this
 
   var service = function (endpoint) {
@@ -95,7 +95,7 @@ app.service('DashboardService', function ($http, $q) {
 
 //...
 app.factory('DashboardFactory', function ($http, $q) {
-  var baseApi  = 'https://thecrab.com'
+  var baseApi  = 'https://api.vanman.com/v1/'
 
   var service = function (endpoint) {
     var deferred = $q.defer()
@@ -133,10 +133,10 @@ app.controller('DashboardCtrl', function ($scope, DashboardService) {
   scope.jobs     = DashboardService.jobs
   scope.vehicles = DashboardService.vehicles
   scope.company  = {
-    name: 'Waddington Taxis',
+    name: 'Waddington Parcel Services',
     id: 'kduhqq021n9sdy80',
-    phone: '01522 567567',
-    dispatcher: 'Nelson Kelem'
+    phone: '01522 123456',
+    dispatcher: 'Joe Di Panto'
   } // DashboardService.company
 })
 
