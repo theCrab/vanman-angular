@@ -9,6 +9,7 @@ Create the `public/javascripts/` directory if its missing. The compiled JS file 
 ```sh
 $ git clone thisrepourl
 $ cd vanman-angular
+$ npm install
 $ gulp
 ```
 
@@ -17,7 +18,7 @@ Visit `http://localhost:5000` and enjoy.
 ### Testing
 The tests are written in `jasmine` and run by `karma`.
 
-To run the tests `npm test`.
+The tests are not ready.
 
 ### To help
 You can help make it better by submitting pull requests.
