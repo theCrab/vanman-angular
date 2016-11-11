@@ -9,8 +9,7 @@ Create the `public/javascripts/` directory if its missing. The compiled JS file 
 ```sh
 $ git clone thisrepourl
 $ cd vanman-angular
-$ npm install
-$ npm start
+$ gulp
 ```
 
 Visit `http://localhost:5000` and enjoy.
